@@ -1,15 +1,32 @@
 .page-menu{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
     display: flex;
     justify-content: space-between;
     background-color: #3f3c3c;
+    color: white;
 }
 
 *{
+    font-weight: bolder;
+    font-size: 50px;
     font-family: Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+h1{
+    color: #26D8FC;
+}
+
+p{
+    color: #26D8FC;
 }
 
 .react-style{
     font-size: 55px;
+    background-color: #3f3f3f;
 }
 
 .cursive{
@@ -19,6 +36,31 @@
 .ui{
     font-family: system-ui;
 }
+
+.link:link {
+    text-decoration: underline;
+    
+  }
+  
+  .link:visited {
+    text-decoration: none;
+    color: #3c4f5a;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    color: #26D8FC;
+  }
+  
+  .link:active {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+  }
+
+  
+    
+  
 
 .button{
     background-color: #0f0909; 
